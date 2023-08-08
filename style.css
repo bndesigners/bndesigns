@@ -1,0 +1,208 @@
+* {
+  overflow: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "div1 div2"
+    "div1 div2"
+    "div3 div3";
+}
+
+.div1 {
+  grid-area: div1;
+  background-color: rgb(78, 18, 112);
+  position: relative;
+}
+.div2 {
+  grid-area: div2;
+  background-color: rgb(109, 35, 90);
+}
+.div3 {
+  grid-area: div3;
+  background-color: lightyellow;
+}
+
+.div1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(69, 0, 116, 0.9),
+    rgba(243, 218, 255, 0.4)
+  );
+}
+
+.div1 {
+  background: url("./Assets/automn.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.navbar .logo {
+  height: 40px;
+  z-index: 1;
+}
+
+.navbar .icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.navbar .icons i {
+  color: #fff;
+}
+
+.navbar .icons img {
+  height: 30px;
+}
+
+.div1 #about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 #about div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: url("./Assets/love.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.div2 .content {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.div3 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgba(69, 0, 116), rgba(105, 37, 151));
+  padding: 20px 30px;
+  gap: 20px;
+}
+
+.div3 #slide1 {
+  position: relative;
+  background: url("./Assets/slide1.png") no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 23%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.div3 #slide2 {
+  position: relative;
+  background: url("./Assets/slide2.png") no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 23%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.div3 #slide3 {
+  position: relative;
+  background: url("./Assets/slide3.png") no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 23%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.div3 #slide4 {
+  position: relative;
+  background: url("./Assets/slide4.png") no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 23%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.div3 #slide1 .slide-num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.div3 #slide2 .slide-num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.div3 #slide3 .slide-num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.div3 #slide4 .slide-num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
