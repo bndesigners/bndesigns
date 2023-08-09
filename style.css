@@ -158,6 +158,7 @@ a {
   gap: 20px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  z-index: 1;
 }
 
 .div3 #slide1 {
