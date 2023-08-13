@@ -46,7 +46,7 @@ nav {
   border: none;
   background-color: #00c5ec;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   padding: 15px 25px;
   box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -60,11 +60,11 @@ nav {
   align-items: center;
   width: 100vw;
   overflow: hidden;
-  height: 400px;
+  height: 350px;
 }
 
 .mobile-landing-picture-img {
-  height: 100%;
+  height: 50%;
 }
 
 /* Tablets (portrait and landscape) */
