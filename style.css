@@ -21,6 +21,7 @@ nav {
 }
 
 #heading {
+  font-family: "Halant", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,9 +36,19 @@ nav {
 }
 
 #banner-heading {
-  font-family: "Halant", serif;
   text-align: center;
   font-size: 40px;
+}
+
+.projects-button {
+  font-family: "Gudea", sans-serif;
+  border-radius: 40px;
+  border: none;
+  background-color: #00c5ec;
+  color: #fff;
+  font-size: 30px;
+  padding: 15px 25px;
+  box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Tablets (portrait and landscape) */
