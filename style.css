@@ -49,6 +49,22 @@ nav {
   font-size: 30px;
   padding: 15px 25px;
   box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.mobile-landing-picture {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  overflow: hidden;
+  height: 400px;
+}
+
+.mobile-landing-picture-img {
+  height: 100%;
 }
 
 /* Tablets (portrait and landscape) */
