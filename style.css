@@ -37,6 +37,22 @@ nav {
 #banner-heading {
   text-align: center;
   font-size: 30px;
+  overflow: visible;
+}
+
+#banner-heading::before {
+  content: "";
+  position: absolute;
+  background-image: url("./Assets/bluedots.png");
+  background-size: 320px;
+  background-repeat: no-repeat;
+  top: 180px;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  transform: rotate(30deg);
 }
 
 .projects-button {
