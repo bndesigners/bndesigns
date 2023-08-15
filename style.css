@@ -110,13 +110,14 @@ nav {
 }
 
 .section2-paragraph {
+  position: relative;
   margin: 50px 0;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Gudea", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .inner-paragraph {
@@ -125,6 +126,17 @@ nav {
 
 .inner-paragraph p {
   margin: 30px 0;
+}
+
+.paragraph-background-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.paragraph-background-div img {
+  width: 180px;
 }
 
 /* Tablets (portrait and landscape) */
