@@ -51,7 +51,7 @@ nav {
 }
 
 .banner-background-div img {
-  width: 300px;
+  width: 250px;
 }
 
 .projects-button {
@@ -84,20 +84,31 @@ nav {
   height: 100%;
 }
 
-/* #about {
-  position: relative;
-} */
-
-/* .about-section {
-  position: absolute;
-  top: -56px;
-  width: 100vw;
-} */
 /* ABOUT SECTION */
 .arrow-down {
   background-color: rgb(237, 255, 255);
   display: flex;
   justify-content: center;
+}
+
+.bn-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  z-index: 1;
+}
+
+.bn-heading img {
+  width: 100vw;
+}
+
+.grey-bar {
+  position: absolute;
+  background-color: #00c5ec;
+  height: 20px;
+  top: 0;
 }
 
 /* Tablets (portrait and landscape) */
