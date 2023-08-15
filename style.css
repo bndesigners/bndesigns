@@ -139,6 +139,18 @@ nav {
   width: 180px;
 }
 
+.paragraph-background-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.paragraph-background-info-div img {
+  width: 130px;
+  opacity: 0.5;
+}
+
 /* Tablets (portrait and landscape) */
 @media only screen and (min-width: 768px) {
 }
