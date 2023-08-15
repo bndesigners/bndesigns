@@ -15,6 +15,7 @@ nav {
   width: 140px;
   margin-left: 20px;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 #banner {
@@ -158,25 +159,26 @@ nav {
   align-items: center;
   width: 100vw;
   z-index: 1;
+  margin-bottom: 50px;
 }
 
 .service-heading h2 {
-  font-size: 40px;
+  font-size: 25px;
   font-family: Gudea, sans-serif;
   background-color: #fff;
   padding: 20px;
 }
 
-.section2-projects {
+.section3-projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   width: 100vw;
 }
 
-.section2-projects #image1 {
+.section3-projects #image1 {
   background-image: url("./Assets/slide1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,6 +187,31 @@ nav {
   height: 200px;
   overflow: hidden;
   border-radius: 40px;
+  box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section3-projects #image2 {
+  background-image: url("./Assets/slide2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section3-projects #image3 {
+  background-image: url("./Assets/slide4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Tablets (portrait and landscape) */
