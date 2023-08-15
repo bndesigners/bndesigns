@@ -151,6 +151,41 @@ nav {
   opacity: 0.5;
 }
 
+.service-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  z-index: 1;
+}
+
+.service-heading h2 {
+  font-size: 40px;
+  font-family: Gudea, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.section2-projects {
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+}
+
+.section2-projects div {
+  background-image: url("./Assets/slide1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
 /* Tablets (portrait and landscape) */
 @media only screen and (min-width: 768px) {
 }
