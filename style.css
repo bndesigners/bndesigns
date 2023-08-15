@@ -176,6 +176,7 @@ nav {
   align-items: center;
   gap: 30px;
   width: 100vw;
+  margin-bottom: 50px;
 }
 
 .section3-projects #image1 {
@@ -212,6 +213,38 @@ nav {
   overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  background-color: #003d49;
+  color: #fff;
+  font-size: 10px;
+}
+
+.footer .info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .info .contact-details {
+  width: 35%;
+}
+
+.footer .info h2 {
+  margin-bottom: 10px;
+}
+
+.footer .info p {
+  margin-bottom: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 /* Tablets (portrait and landscape) */
