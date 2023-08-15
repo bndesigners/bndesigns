@@ -142,7 +142,7 @@ nav {
 .paragraph-background-info {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -40px;
   z-index: -1;
 }
 
@@ -168,8 +168,6 @@ nav {
 }
 
 .section2-projects {
-  box-sizing: border-box;
-  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,12 +176,15 @@ nav {
   width: 100vw;
 }
 
-.section2-projects div {
+.section2-projects #image1 {
   background-image: url("./Assets/slide1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  width: 80%;
+  height: 200px;
   overflow: hidden;
+  border-radius: 40px;
 }
 
 /* Tablets (portrait and landscape) */
