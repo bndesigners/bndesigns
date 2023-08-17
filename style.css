@@ -192,85 +192,43 @@ nav {
 }
 
 .section3-projects #image1 {
-  background-image: url("./Assets/slide1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image2 {
-  background-image: url("./Assets/slide2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image3 {
-  background-image: url("./Assets/slide4.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image4 {
-  background-image: url("./Assets/slide3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image5 {
-  background-image: url("./Assets/slide5.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image6 {
-  background-image: url("./Assets/slide6.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .section3-projects #image7 {
-  background-image: url("./Assets/slide7.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 80%;
-  height: 200px;
-  overflow: hidden;
   border-radius: 40px;
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
