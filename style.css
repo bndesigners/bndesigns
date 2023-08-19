@@ -274,6 +274,17 @@ nav {
   display: none;
 }
 
+/* PROJECTS SECTION */
+#projects-heading-align {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Laptops and Desktops */
 @media only screen and (min-width: 1024px) {
   .mobile {
