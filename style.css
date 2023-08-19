@@ -270,12 +270,228 @@ nav {
   color: #fff;
 }
 
-/* Tablets (portrait and landscape) */
-@media only screen and (min-width: 768px) {
+.desktop {
+  display: none;
 }
 
 /* Laptops and Desktops */
 @media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+  /* NAVBAR DESKTOP SETTINGS */
+  .nav-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #nav-logo {
+    width: 50px;
+  }
+
+  .search-bar {
+    background-color: #dddddd;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar p {
+    font-family: gudea, sans-serif;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .inner-search {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .inner-search i {
+    padding: 5px;
+  }
+  /* NAVBAR DESKTOP SETTINGS END */
+
+  /* BANNER DESKTOP SETTINGS */
+  #banner {
+    height: auto;
+    overflow: hidden;
+  }
+
+  #heading-align {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    align-items: end;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  #heading-align2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  .banner-background-div {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: -1;
+  }
+
+  .banner-background-div img {
+    width: 300px;
+  }
+
+  .banner-background-div2 {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: -1;
+  }
+
+  .banner-background-div2 img {
+    width: 400px;
+  }
+
+  .banner1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .banner2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+  .banner3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .banner4 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+  .banner4 ul li {
+    font-size: 25px;
+  }
+  #banner-heading {
+    text-align: start;
+    font-size: 50px;
+    overflow: hidden;
+  }
+  #girl-design {
+    width: 300px;
+  }
+  #boy-coding {
+    width: 400px;
+  }
+
+  /* SECTION 3 - DESKTOP */
+  .section3 {
+    margin-top: 50px;
+  }
+
+  .section3-projects {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .section3-projects-button {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .section3-projects #image1 {
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image2 {
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image3 {
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image4 {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image5 {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image6 {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section3-projects #image7 {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .inner-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .about-picture {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .about-us {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .about-us p {
+    font-family: gudea;
+    margin: 50px;
+  }
+
+  #aboutus {
+    width: 400px;
+  }
 }
 
 /* Large screens */

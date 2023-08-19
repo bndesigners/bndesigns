@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"
@@ -20,66 +19,151 @@
       href="https://fonts.googleapis.com/css2?family=Gudea&family=Halant:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>BN Designers</title>
   </head>
   <body>
     <main>
       <div id="banner">
-        <nav><i class="fa-solid fa-bars"></i></nav>
-        <div id="heading">
-          <div id="heading-align">
+        <nav class="nav-desktop">
+          <i class="fa-solid fa-bars"></i>
+          <img
+            id="nav-logo"
+            class="desktop"
+            src="./Assets/bn-designs.png"
+            alt="BN Designs"
+          />
+          <div class="search-bar desktop">
+            <p>bndesigns143@gmail.com</p>
+            <div class="inner-search">
+              <a href=""><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </div>
+        </nav>
+        <!-- MOBILE BANNER -->
+        <div id="heading" class="mobile">
+          <div id="heading-align" class="mobile">
             <img
               id="bn-designs"
+              class="mobile"
               src="./Assets/bn-designs.png"
               alt="BN Designs"
             />
-            <h1 id="banner-heading">
+            <h1 id="banner-heading" class="mobile">
               Where Design Meets Cutting-Edge Technology.
             </h1>
-            <a href="projects.html" class="projects-button">See Our Projects</a>
-            <div class="banner-background-div">
+            <a href="projects.html" class="projects-button mobile"
+              >See Our Projects</a
+            >
+            <div class="banner-background-div mobile">
               <img
-                class="banner-background-image"
+                class="banner-background-image mobile"
                 src="./Assets/bluedots.png"
               />
             </div>
           </div>
         </div>
-        <div class="mobile-landing-picture">
+        <div class="mobile-landing-picture mobile">
           <img
             class="mobile-landing-picture-img"
-            src="./Assets/mobile-banner-picture.jpg"
+            src="./Assets/mobile-banner-picture.png"
           />
         </div>
-      </div>
-      <div class="section2">
-        <div class="bn-heading">
-          <img src="./Assets/bn-heading.png" />
-          <div class="grey-bar"></div>
+        <!-- MOBILE BANNER END -->
+        <!-- DESKTOP BANNER -->
+        <div id="heading" class="desktop">
+          <div id="heading-align" class="desktop">
+            <div class="banner1">
+              <h1 id="banner-heading" class="desktop">
+                Where Design Meets Cutting-Edge Technology.
+              </h1>
+              <a href="projects.html" class="projects-button desktop"
+                >See Our Projects</a
+              >
+            </div>
+
+            <div class="banner2">
+              <img
+                id="girl-design"
+                class="desktop"
+                src="./Assets/girl-design.png"
+              />
+            </div>
+
+            <div class="banner-background-div">
+              <img
+                class="banner-background-image desktop"
+                src="./Assets/pinkdots.png"
+              />
+            </div>
+          </div>
         </div>
-        <div class="section2-paragraph">
-          <div class="inner-paragraph">
-            <p>
+
+        <div id="heading" class="desktop">
+          <div id="heading-align2" class="desktop">
+            <div class="banner3">
+              <img
+                id="boy-coding"
+                class="desktop"
+                src="./Assets/boy-coding.png"
+              />
+            </div>
+
+            <div class="banner4">
+              <ul>
+                <li>
+                  <strong>BN Designers</strong> gives Solutions and Services in
+                  order to Design and Build Creative Websites.
+                </li>
+                <li>
+                  As a Dedicated <strong>freelance duo</strong>, we bring a
+                  unique blend of <strong>cutting-edge UI/UX</strong> design and
+                  <strong>Robust Development</strong> expertise to the table
+                </li>
+              </ul>
+            </div>
+
+            <div class="banner-background-div2">
+              <img
+                class="banner-background-image desktop"
+                src="./Assets/bluedots-left.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- DESKTOP BANNER END -->
+      </div>
+      <div class="section2 mobile">
+        <div class="bn-heading mobile">
+          <img src="./Assets/bn-heading.png" class="mobile" />
+          <div class="grey-bar mobile"></div>
+        </div>
+        <div class="section2-paragraph mobile">
+          <div class="inner-paragraph mobile">
+            <p class="mobile">
               We're passionate about crafting the
               <strong>digital future.</strong> As a dedicated
               <strong>freelance duo,</strong> we bring a unique blend of
               <strong>cutting-edge UI/UX</strong> design and
               <strong>robust development</strong> expertise to the table.
             </p>
-            <p>
+            <p class="mobile">
               Dive into a <strong>Partnership</strong> where
               <strong>Vision</strong> meets <strong>Innovation,</strong> and
               every pixel is purposefully placed.
             </p>
           </div>
-          <div class="paragraph-background-div">
+          <div class="paragraph-background-div mobile">
             <img
-              class="paragraph-background-image"
+              class="paragraph-background-image mobile"
               src="./Assets/pinkdots.png"
             />
           </div>
-          <div class="paragraph-background-info-div">
-            <img class="paragraph-background-info" src="./Assets/info.png" />
+          <div class="paragraph-background-info-div mobile">
+            <img
+              class="paragraph-background-info mobile"
+              src="./Assets/info.png"
+            />
           </div>
         </div>
       </div>
@@ -92,9 +176,42 @@
           <img id="image1" src="./Assets/slide1.png" />
           <img id="image2" src="./Assets/slide2.png" />
           <img id="image3" src="./Assets/slide3.png" />
-          <a href="projects.html" class="projects-button">See Our Projects</a>
+          <a href="projects.html" class="projects-button mobile"
+            >See More Projects</a
+          >
+        </div>
+        <div class="section3-projects-button desktop">
+          <a href="projects.html" class="projects-button">See More Projects</a>
         </div>
       </div>
+      <!-- SECTION ABOUT ME -->
+      <div class="section3 desktop">
+        <div class="service-heading">
+          <h2>About Us</h2>
+          <div class="grey-bar"></div>
+        </div>
+        <div class="inner-section desktop">
+          <div class="about-picture">
+            <img id="aboutus" src="./Assets/aboutus.png" alt="About Us" />
+          </div>
+          <div class="about-us">
+            <p>
+              We're passionate about crafting the
+              <strong>digital future</strong>. As a dedicated
+              <strong>freelance duo</strong>, we bring a unique blend of
+              <strong>cutting-edge UI/UX</strong> design and
+              <strong>Robust Development</strong> expertise to the table.
+            </p>
+            <p>
+              Dive into a <strong>Partnership</strong> where
+              <strong>Vision</strong> meets <strong>Innovation</strong>, and
+              every pixel is purposefully placed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- SECTION ABOUT ME END -->
+      <!-- FOOOOOOOOOOOOOOOOOTER -->
       <div class="footer">
         <div class="info">
           <div class="contact-details">
@@ -126,6 +243,7 @@
           ></a>
         </div>
       </div>
+      <!-- FOOOOOOOOOOOOOOOOOTER END -->
     </main>
   </body>
 </html>
