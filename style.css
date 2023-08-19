@@ -233,6 +233,12 @@ nav {
   box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
+.section3-projects #image8 {
+  width: 80%;
+  border-radius: 40px;
+  box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
 .footer {
   background-color: #3d3d3d;
   color: #fff;
@@ -477,6 +483,13 @@ nav {
 
   .section3-projects #image7 {
     width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+
+  .section3-projects #image8 {
+    width: 300px;
     border-radius: 40px;
     box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.3);
     margin: 10px;
