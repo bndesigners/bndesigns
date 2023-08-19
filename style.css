@@ -526,5 +526,11 @@ nav {
 }
 
 /* Large screens */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
+  #girl-design {
+    width: 400px;
+  }
+  #boy-coding {
+    width: 500px;
+  }
 }
