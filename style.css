@@ -492,6 +492,17 @@ nav {
   #aboutus {
     width: 400px;
   }
+
+  .footer {
+    font-family: gudea;
+    font-size: 16px;
+  }
+
+  .section3-projects {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* Large screens */
